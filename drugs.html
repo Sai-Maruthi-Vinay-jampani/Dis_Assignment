@@ -1,0 +1,152 @@
+<!--Your HTML code here-->
+<html>
+<head>
+	<title>Drugs Management</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css"
+    />
+
+<style type="text/css">
+  table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+</style>    
+</head>
+<body>
+<div class="navbar">
+	<a id="logolink" href="index.html"
+        ><img id="logo_ID" src="img/background.PNG" alt="Logo" />
+      </a>
+      
+      <div class="Navbarleft">
+        <a class="navlinks" href="index.html">Home</a>
+        <a class="active navlinks" href="drugs.html">Drugs</a>
+        <a Class="navlinks" href="drug_category.html">Drug Category</a>
+        <a class="navlinks" href="about_us.html">About Us</a>
+      </div>
+</div>
+<h1 style="color: white; text-align: center;" >Data for Drugs Table</h1>
+
+<section class="section-drugs" id="section-drugs">
+  <div class="drug-description">In this Table we gonna have the list of the drugs which are new in the market and approved by FDA. There are various fields in the data which describes a drug.Let's see what each field represents in the dataset.<br> NDC 1,NDC 2,NDC 3, NDC 11 where NDC means National Drug Code.<br> FDA Name is the name of the medicines.<br>Drug Category ID: Which Category the Drug belongs too.<br>Unit Type: what is type of unit the drug is going to come in market.<br>FDA Approval Date: When the Medicie Got approval by FDA.<br>Market Date: When the product is launching in market.<br></div>
+   <div style="overflow-x: auto; background-color: white" >
+     <table >
+      <tr>
+        <th>Drug ID</th>
+        <th>NDC-1</th>
+        <th>NDC-2</th>
+        <th>NDC-3</th>
+        <th>NDC-11</th>
+        <th>FDA Name</th>
+        <th>COD Status</th>
+        <th>FDA Application Number/OTC Monograph Number</th>
+        <th>Drug Category ID</th>
+        <th>Drug Type</th>
+        <th>Unit Type ID</th>
+        <th>Units Per Package Size</th>
+        <th>Line Extension</th>
+        <th>Therapeutic Equivalent Code ID</th>
+        <th>FDA Approval Date</th>
+        <th>Market Date</th>
+        <th>Date Reported to CMS</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>69</td>
+        <td>235</td>
+        <td>30</td>
+        <td>69023530</td>
+        <td>CIBINQO 50MG TAB 1X30 BTL US</td>
+        <td>3</td>
+        <td>213871</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>N</td>
+        <td>NR</td>
+        <td>4/23/2021</td>
+        <td>2/23/2022</td>
+        <td>03-09-2022</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>69</td>
+        <td>335</td>
+        <td>30</td>
+        <td>69033530</td>
+        <td>CIBINQO 100MG TAB 1X30 BTL US</td>
+        <td>3</td>
+        <td>213871</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>N</td>
+        <td>NR</td>
+        <td>4/23/2021</td>
+        <td>2/23/2022</td>
+        <td>03-09-2022</td>
+      </tr>
+
+
+      <tr>
+        <td>3</td>
+        <td>69</td>
+        <td>435</td>
+        <td>30</td>
+        <td>69043530</td>
+        <td>CIBINQO 200MG TAB 1X30 BTL US</td>
+        <td>3</td>
+        <td>213871</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>N</td>
+        <td>NR</td>
+        <td>4/23/2021</td>
+        <td>2/23/2022</td>
+        <td>03-09-2022</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>121</td>
+        <td>940</td>
+        <td>0</td>
+        <td>121094000</td>
+        <td>Milk of Magnesia Concentrate</td>
+        <td>10</td>
+        <td>PART331</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>10</td>
+        <td>N</td>
+        <td>NR</td>
+        <td>9/30/1990</td>
+        <td>9/30/1990</td>
+        <td>03-07-2022</td>
+      </tr>
+     </table>
+   </div>
+ </section>
+</body>
+</html>

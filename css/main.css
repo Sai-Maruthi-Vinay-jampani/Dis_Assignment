@@ -1,0 +1,98 @@
+/**
+Sample css code
+*/
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+
+body{
+  background-color: black;
+}
+
+#logo_ID {
+  float: left;
+  height: 2rem;
+  border: 1px solid #50af7b;
+}
+
+#logolink {
+  margin-left: 20%;
+}
+
+.Navbar {
+  overflow: hidden;
+  background-color: black;
+  align-self: auto;
+}
+
+.navlinks {
+  float: left;
+  color: #f2f2f2;
+  margin: 1% 2%;
+  padding: 6px 8px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.Navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.295);
+  color: black;
+  transition: 0.3s linear;
+}
+
+.Navbar a.active {
+  background-color: #FFA500;
+  color: black;
+}
+/* section section styling */
+.section{
+  height: 93%;
+  width: 100%;
+  background: url("../img/background.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Ubuntu', sans-serif;
+}
+.section .section-content{
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section .text-two{
+  color:#000000;
+  font-size: 50px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+.section .text-four{
+  font-size: 14px;
+  margin: 5px 0;
+  color: #4b0082;
+}
+.section .button{
+  margin: 14px 0;
+}
+.section .button button{
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 25px;
+  font-weight: 400;
+  background: #4070f4;
+  color: #7fffd4;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.4s ease;
+}
+.section .button button:hover{
+  border-color: #4070f4;
+  background-color: #fff;
+  color: #4070f4;
+}
+
+.drug-description{
+  color: white;
+}
